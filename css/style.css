@@ -66,8 +66,10 @@
 .naslov-oglasa{
 	font-size:25px;
 	text-decoration:bold;
+	
 }
 .okvir{
 	background-color:#cc7a00;
 	border:1px solid #cc7a00;
+	color: white;
 }
