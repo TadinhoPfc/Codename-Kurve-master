@@ -24,38 +24,39 @@
 
     <!-- Main CSS-->
     <link href="css/main.css" rel="stylesheet" media="all">
+    <ling rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-    <div class="page-wrapper bg-gra-03 p-t-45 p-b-50">
+    <div class="page-wrapper bg-gra-03 p-t-45 p-b-50 ">
         <div class="wrapper wrapper--w790">
             <div class="card card-5">
                 <div class="card-heading">
-                    <h2 class="title">Event Registration Form</h2>
+                    <h2 class="title boja boja">REGISTRACIJA</h2>
                 </div>
-                <div class="card-body">
+                <div class="card-body ">
                     <form method="POST">
                         <div class="form-row m-b-55">
-                            <div class="name">Name</div>
+                            <div class="name">Ime i Prezime</div>
                             <div class="value">
                                 <div class="row row-space">
                                     <div class="col-2">
                                         <div class="input-group-desc">
                                             <input class="input--style-5" type="text" name="first_name">
-                                            <label class="label--desc">first name</label>
+                                            <label class="label--desc tekst-white">Ime</label>
                                         </div>
                                     </div>
                                     <div class="col-2">
                                         <div class="input-group-desc">
                                             <input class="input--style-5" type="text" name="last_name">
-                                            <label class="label--desc">last name</label>
+                                            <label class="label--desc">Prezime</label>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="form-row">
-                            <div class="name">Company</div>
+                            <div class="name">Korisnicko Ime</div>
                             <div class="value">
                                 <div class="input-group">
                                     <input class="input--style-5" type="text" name="company">
@@ -71,34 +72,50 @@
                             </div>
                         </div>
                         <div class="form-row m-b-55">
-                            <div class="name">Phone</div>
+                            <div class="name">Lozinka</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="password" name="password">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Potvrda Lozinke</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="password" name="password">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row m-b-55">
+                            <div class="name">Broj Telefona</div>
                             <div class="value">
                                 <div class="row row-refine">
-                                    <div class="col-3">
+                                <!--    <div class="col-3">
                                         <div class="input-group-desc">
                                             <input class="input--style-5" type="text" name="area_code">
                                             <label class="label--desc">Area Code</label>
                                         </div>
-                                    </div>
+                                    </div>-->
                                     <div class="col-9">
                                         <div class="input-group-desc">
                                             <input class="input--style-5" type="text" name="phone">
-                                            <label class="label--desc">Phone Number</label>
+                                            <label class="label--desc">mob</label>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="form-row">
-                            <div class="name">Subject</div>
+                            <div class="name">Pol</div>
                             <div class="value">
                                 <div class="input-group">
                                     <div class="rs-select2 js-select-simple select--no-search">
                                         <select name="subject">
-                                            <option disabled="disabled" selected="selected">Choose option</option>
-                                            <option>Subject 1</option>
-                                            <option>Subject 2</option>
-                                            <option>Subject 3</option>
+                                            <option disabled="disabled" selected="selected">Izaberi</option>
+                                            <option>Musko</option>
+                                            <option>Zensko</option>
+                                            <option>Trans</option>
                                         </select>
                                         <div class="select-dropdown"></div>
                                     </div>

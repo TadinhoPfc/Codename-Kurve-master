@@ -57,7 +57,7 @@
   height: 400px;
 }
 .tekst-white{
-  color: white;
+  color: white!important;
 
 }
 .dugme{
