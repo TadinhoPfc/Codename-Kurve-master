@@ -20,6 +20,7 @@
 .foot{
 }
 #main{
+
   width: 100%;
   height: auto;
   display: flex;
@@ -57,7 +58,7 @@
 }
 .tekst-white{
   color: white;
- 
+
 }
 .dugme{
 	background-color:#cc7a00;
@@ -66,8 +67,7 @@
 .naslov-oglasa{
 	font-size:25px;
 	text-decoration:bold;
-	
-}
+  font-weight: bold;}
 .okvir{
 	background-color:#cc7a00;
 	border:1px solid #cc7a00;
