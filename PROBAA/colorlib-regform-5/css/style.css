@@ -9,12 +9,7 @@ margin-top: auto;
 .pozadina{
   background-color: #262626!important;
 }
-.duzina{
-  width: 200px!important;
-  margin-right:auto!important;
-
-}
-.p{
+.duzina-polja{
   float:left;
-
+  width: 1600px;
 }
