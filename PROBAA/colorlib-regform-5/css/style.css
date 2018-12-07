@@ -1,3 +1,20 @@
 .boja{
-  color:red;
+    background-color:#cc7a00!important;
+  	border:1px solid #cc7a00;
+  	color: white;
+}
+.sm{
+margin-top: auto;
+}
+.pozadina{
+  background-color: #262626!important;
+}
+.duzina{
+  width: 200px!important;
+  margin-right:auto!important;
+
+}
+.p{
+  float:left;
+
 }
