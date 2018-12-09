@@ -52,7 +52,8 @@
 .test{
   /*background-image:linear-gradient(to bottom,#fac826 0,#ecc557 47%,#ebc868 50%,#ebc868 50%,#e1b02a 51%,#c4932e 100%);!important;*/
   background-color:black!important;
-  height: 60px!important;}
+  height: 60px!important;
+  font-size:20px!important;}
 .oglas img{
   width: 500px;
   height: 400px;
@@ -73,4 +74,7 @@
 	background-color:#cc7a00;
 	border:1px solid #cc7a00;
 	color: white;
+}
+font-sizee{
+  font-size:30px!important;
 }
