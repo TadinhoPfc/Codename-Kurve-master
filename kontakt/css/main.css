@@ -7,27 +7,27 @@
 
 @font-face {
   font-family: Montserrat-Regular;
-  src: url('../fonts/montserrat/Montserrat-Regular.ttf'); 
+  src: url('../fonts/montserrat/Montserrat-Regular.ttf');
 }
 
 @font-face {
   font-family: Montserrat-Bold;
-  src: url('../fonts/montserrat/Montserrat-Bold.ttf'); 
+  src: url('../fonts/montserrat/Montserrat-Bold.ttf');
 }
 
 @font-face {
   font-family: Montserrat-Black;
-  src: url('../fonts/montserrat/Montserrat-Black.ttf'); 
+  src: url('../fonts/montserrat/Montserrat-Black.ttf');
 }
 
 @font-face {
   font-family: Montserrat-SemiBold;
-  src: url('../fonts/montserrat/Montserrat-SemiBold.ttf'); 
+  src: url('../fonts/montserrat/Montserrat-SemiBold.ttf');
 }
 
 @font-face {
   font-family: Montserrat-Medium;
-  src: url('../fonts/montserrat/Montserrat-Medium.ttf'); 
+  src: url('../fonts/montserrat/Montserrat-Medium.ttf');
 }
 
 
@@ -36,21 +36,22 @@
 [ RESTYLE TAG ]*/
 
 * {
-	margin: 0px; 
-	padding: 0px; 
+	margin: 0px;
+	padding: 0px;
 	box-sizing: border-box;
 }
 
 body, html {
 	height: 100%;
-	font-family: Poppins-Regular, sans-serif;
+/*	font-family: Poppins-Regular, sans-serif;*/
+
 }
 
 /*---------------------------------------------*/
 a {
-	font-family: Poppins-Regular;
-	font-size: 14px;
-	line-height: 1.7;
+/*	font-family: Poppins-Regular;*/
+	font-size: 20px;
+	line-height: 2.5;
 	color: #666666;
 	margin: 0px;
 	transition: all 0.4s;
@@ -65,6 +66,7 @@ a:focus {
 
 a:hover {
 	text-decoration: none;
+
 }
 
 /*---------------------------------------------*/
@@ -150,7 +152,7 @@ iframe {
 
 /*---------------------------------------------*/
 .container {
-	max-width: 1200px;
+/*	max-width: 1200px;*/
 }
 
 
@@ -165,7 +167,7 @@ iframe {
 [ Contact ]*/
 
 .container-contact100 {
-  width: 100%;  
+  width: 100%;
   min-height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -176,8 +178,9 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: #e6e6e6;
-  
+/*  background: #e6e6e6;*/
+background-color:#262626;
+
 }
 
 .wrap-contact100 {
@@ -206,12 +209,16 @@ iframe {
 .contact100-form-title {
   display: block;
   width: 100%;
-  font-family: Montserrat-Black;
-  font-size: 39px;
-  color: #333333;
+/*  font-family: Montserrat-Black;*/
+font-weight: bold;
+/*  font-size: 39px;*/
+font-size:24px;
+  color: white;
   line-height: 1.2;
   text-align: center;
-  padding-bottom: 59px;
+/* padding-bottom: 59px;*/
+padding-top:20px;
+padding-bottom: 20px;
 }
 
 
@@ -222,7 +229,8 @@ iframe {
 .wrap-input100 {
   width: 100%;
   position: relative;
-  border: 1px solid #e6e6e6;
+
+ border: 1px solid #e6e6e6;
   border-radius: 13px;
   padding: 10px 30px 9px 22px;
   margin-bottom: 20px;
@@ -299,7 +307,7 @@ textarea.input100 {
   padding: 0 20px;
   width: 100%;
   height: 50px;
-  background-color: #333333;
+  background-color: #cc7a00;
   border-radius: 25px;
 
   font-family: Montserrat-Medium;
@@ -321,7 +329,8 @@ textarea.input100 {
 }
 
 .contact100-form-btn:hover {
-  background-color: #00ad5f;
+  background-color: #ffc107;
+  border-color: #ffc107;
 }
 
 .contact100-form-btn:hover i {
@@ -540,12 +549,12 @@ textarea.input100 {
 }
 
 .select2-container .select2-results__option[aria-selected="true"] {
-  background: #00ad5f;
+  background: #cc7a00;
   color: white;
 }
 
 .select2-container .select2-results__option--highlighted[aria-selected] {
-  background: #00ad5f;
+  background: #cc7a00;
   color: white;
 }
 
@@ -626,9 +635,9 @@ textarea.input100 {
   border-radius: 50%;
   border: 6px solid transparent;
   background: #00ad5f;
-  -moz-background-clip: padding;     
-  -webkit-background-clip: padding;  
-  background-clip: padding-box; 
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
   left: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -655,7 +664,7 @@ textarea.input100 {
 .contact100-form-range-value {
   font-family: Montserrat-SemiBold;
   font-size: 18px;
-  color: #555555;
+  color: #cc7a00;
   line-height: 1.2;
   padding-top: 10px;
   padding-bottom: 30px;
@@ -726,4 +735,7 @@ textarea.input100 {
   .wrap-contact100-form-radio {
     padding: 15px 0px 0 0px;
   }
+}
+.noUi-connect{
+  background-color: #cc7a00!important;
 }

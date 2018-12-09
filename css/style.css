@@ -75,6 +75,14 @@
 	border:1px solid #cc7a00;
 	color: white;
 }
-font-sizee{
-  font-size:30px!important;
+.boja{
+    background-color:#cc7a00!important;
+  	border:1px solid #cc7a00;
+  	color: white;
+  }
+.ttitle{
+  border-radius: 5px!important;
+}
+.bord{
+  border:1px solid black!important;
 }
