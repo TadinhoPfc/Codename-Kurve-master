@@ -20,6 +20,7 @@
 .foot{
 }
 #main{
+
   width: 100%;
   height: auto;
   display: flex;
@@ -50,14 +51,16 @@
 }
 .test{
   /*background-image:linear-gradient(to bottom,#fac826 0,#ecc557 47%,#ebc868 50%,#ebc868 50%,#e1b02a 51%,#c4932e 100%);!important;*/
-  background-color:black!important;}
+  background-color:black!important;
+  height: 60px!important;
+  font-size:20px!important;}
 .oglas img{
   width: 500px;
   height: 400px;
 }
 .tekst-white{
   color: white;
- 
+
 }
 .dugme{
 	background-color:#cc7a00;
@@ -66,10 +69,21 @@
 .naslov-oglasa{
 	font-size:25px;
 	text-decoration:bold;
-	
-}
+  font-weight: bold;}
 .okvir{
 	background-color:#cc7a00;
 	border:1px solid #cc7a00;
 	color: white;
+}
+.boja{
+    background-color:#cc7a00!important;
+  	border:1px solid #cc7a00;
+  	color: white;
+  }
+.ttitle{
+  border-radius: 5px!important;
+  margin-bottom: 10px;
+}
+.bord{
+  border:1px solid black!important;
 }
