@@ -26,7 +26,7 @@
   display: flex;
   justify-content: space-between;
  /* background-color: #4c4d4f;*/
- background-color:#262626;
+ background-color:#3c3b3b;
 }
 .levi{
   background-image: url("../img/left.jpg");
@@ -63,7 +63,7 @@
 
 }
 .dugme{
-	background-color:#cc7a00;
+	background-color:#cc005e;
 	text-shadow:2px 2px #000000;
 }
 .naslov-oglasa{
@@ -71,8 +71,8 @@
 	text-decoration:bold;
   font-weight: bold;}
 .okvir{
-	background-color:#cc7a00;
-	border:1px solid #cc7a00;
+	background-color:#cc005e;
+	border:1px solid #cc005e;
 	color: white;
 }
 .boja{
@@ -86,4 +86,11 @@
 }
 .bord{
   border:1px solid black!important;
+}
+.boja-ogl{
+  background-color:#282828;
+  color:white;
+}
+.boja-ogl-fut{
+  background-color: #2a2b2b!important;
 }
