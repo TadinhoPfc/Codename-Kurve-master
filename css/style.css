@@ -94,3 +94,100 @@
 .boja-ogl-fut{
   background-color: #2a2b2b!important;
 }
+/*================RESPONSIVE-MY=========================*/
+@media screen and (max-width:1800px){
+  .banner{
+    width:250px;
+  }
+}
+@media screen and (max-width:1662px){
+  .banner{
+    width:240px;
+  }
+}
+@media screen and (max-width:1615px){
+  .banner{
+    width:230px;
+  }
+}
+@media screen and (max-width:1595px){
+  .banner{
+    width:220px;
+  }
+}
+@media screen and (max-width:1570px){
+  .banner{
+    width:210px;
+  }
+}
+@media screen and (max-width:1550px){
+  .banner{
+    width:200px;
+  }
+}
+/*@media screen and (max-width:1545px){
+  .dugme{
+  display: none;
+  }
+}*/
+@media screen and (max-width:1535px){
+  .banner{
+    width:190px;
+  }
+}
+@media screen and (max-width:1515px){
+  .banner{
+    width:180px;
+  }
+}
+@media screen and (max-width:1500px){
+  .banner{
+    width: 170px;
+  }
+}
+@media screen and (max-width:1475px){
+  .banner{
+    width: 160px;
+  }
+}
+@media screen and (max-width:1450px){
+  .banner{
+    width: 150px;
+  }
+}
+@media screen and (max-width:1432px){
+  .banner{
+    width: 140px;
+  }
+}
+@media screen and (max-width:1414px){
+  .banner{
+    width: 130px;
+  }
+}
+@media screen and (max-width:1393px){
+  .banner{
+    display:none;
+  }
+}
+@media screen and (max-width:992px){
+  .col-my{
+    height: 40px;
+    float:right;
+
+  }
+}
+.mar{margin-left: 30px;}
+@media screen and (max-width:1000px){
+  .marg-left-10px{
+    margin-left: 0px;
+
+  }
+}
+@media screen and (max-width:583px){
+  .col-my{
+    display: none;
+
+  }
+}
+/*================RESPONSIVE-MY=========================*/
