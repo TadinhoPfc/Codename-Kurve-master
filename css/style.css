@@ -76,8 +76,8 @@
 	color: white;
 }
 .boja{
-    background-color:#cc7a00!important;
-  	border:1px solid #cc7a00;
+    background-color:#cc005e!important;
+  	border:1px solid #cc005e!important;
   	color: white;
   }
 .ttitle{
@@ -94,6 +94,19 @@
 .boja-ogl-fut{
   background-color: #2a2b2b!important;
 }
+.marg-left-10px{
+  margin-left: 20px;
+}
+.okvir:hover{
+color: black!important;
+}
+
+
+
+
+
+
+
 /*================RESPONSIVE-MY=========================*/
 @media screen and (max-width:1800px){
   .banner{

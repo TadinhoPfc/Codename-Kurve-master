@@ -1,6 +1,6 @@
 .boja{
-    background-color:#cc7a00!important;
-  	border:1px solid #cc7a00;
+    background-color:##cc005e!important;
+  	border:1px solid ##cc005e;
   	color: white;
 }
 .sm{
@@ -11,4 +11,7 @@ margin-top: 40px;
 }
 .duzina-polja{
 width: 1600px;
+}
+.boja:hover{
+  color:black;
 }
