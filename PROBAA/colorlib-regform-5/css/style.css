@@ -8,6 +8,11 @@ margin-top: 40px;
 }
 .pozadina{
   background-color: #262626!important;
+  display: flex!important;
+  justify-content: space-around!important;
+
+
+  padding-top: 15px;
 }
 .duzina-polja{
 width: 1600px;

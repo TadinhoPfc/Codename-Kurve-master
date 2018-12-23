@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>WisDom | Kontakt</title>
+	<title>WisDom | Registracija</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -58,10 +58,10 @@
 				<li class="nav-item">
 					<a class="nav-link" href="../pravila.html">Pravila</a>
 				</li>
-				<li class="nav-item active">
+				<li class="nav-item ">
 					<a class="nav-link" href="kontakt.html">Kontakt</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item active">
 					<a class="nav-link" href="registracija.html">Registracija</a>
 				</li>
 	<li class="nav-item">
@@ -100,38 +100,58 @@
 			<div class="card-heading boja ttitle ">
 			<form class="contact100-form validate-form ">
 				<span class="contact100-form-title ">
-					KONTAKTIRAJTE NAS
+					REGISTRACIJA
 				</span>
 </div>
 				<div class="wrap-input100 validate-input bg1 " data-validate="Please Type Your Name">
 					<span class="label-input100">Ime*</span>
 					<input class="input100" type="text" name="name" placeholder="Unesite vase ime">
 				</div>
-				<div class="wrap-input100 validate-input bg1 " data-validate="Please Type Your Name">
+				<div class="wrap-input100 validate-input bg1 " data-validate="Please Type Your Last Name">
 					<span class="label-input100">Prezime*</span>
 					<input class="input100" type="text" name="name" placeholder="Unesite vase prezime">
 				</div>
+        <div class="wrap-input100 validate-input bg1 " data-validate="Please Type Your Country">
+					<span class="label-input100">Drzava*</span>
+					<input class="input100" type="text" name="name" placeholder="Unesite drzavu u kojoj radite">
+				</div>
+        <div class="wrap-input100 validate-input bg1 " data-validate="Please Type Your City">
+					<span class="label-input100">Grad*</span>
+					<input class="input100" type="text" name="name" placeholder="Unesite grad u kom radite">
+				</div>
+        <div class="wrap-input100 validate-input bg1 " data-validate="Please Type Your User name">
+					<span class="label-input100">Korisnicko ime*</span>
+					<input class="input100" type="text" name="name" placeholder="Unesite vase korisnicko ime">
+				</div>
 
-				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Email (e@a.x)">
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Email">
 					<span class="label-input100">E-mail *</span>
 					<input class="input100" type="text" name="email" placeholder="Unesite vasu email adresu">
 				</div>
+        <div class="wrap-input100 validate-input bg1 " data-validate="Please Type Your Password">
+					<span class="label-input100">Sifra *</span>
+					<input class="input100" type="password" name="name" placeholder="Unesite vasu sifru">
+				</div>
+        <div class="wrap-input100 validate-input bg1 " data-validate="Please Type Your Password Again">
+					<span class="label-input100">Potvrda Sifre *</span>
+					<input class="input100" type="password" name="name" placeholder="Unesite vasu sifru ponovo">
+				</div>
 				<div class="wrap-input100 input100-select bg1">
-					<span class="label-input100">Vrsta upita *</span>
+					<span class="label-input100">Izaberite Pol *</span>
 					<div>
 						<select class="js-select2" name="service">
-							<option>Izaberite</option>
-							<option>eCommerce Bussiness</option>
-							<option>UI/UX Design</option>
-							<option>Online Services</option>
+							<option>Pol</option>
+							<option>Zensko</option>
+							<option>Musko</option>
+							<option>Trans</option>
 						</select>
 						<div class="dropDownSelect2"></div>
 					</div>
 				</div>
 
-				<div class="w-full dis-none js-show-service">
+		<!--		<div class="w-full dis-none js-show-service">
 					<div class="wrap-contact100-form-radio">
-						<span class="label-input100">What type of products do you sell?</span>
+
 
 						<div class="contact100-form-radio m-t-15">
 							<input class="input-radio100" id="radio1" type="radio" name="type-product" value="physical" checked="checked">
@@ -168,17 +188,17 @@
 							<div id="filter-bar"></div>
 						</div>
 					</div>
-				</div>
+				</div>-->
 
-				<div class="wrap-input100 validate-input bg0 rs1-alert-validate" data-validate = "Please Type Your Message">
+			<!--	<div class="wrap-input100 validate-input bg0 rs1-alert-validate" data-validate = "Please Type Your Message">
 					<span class="label-input100">Poruka</span>
 					<textarea class="input100" name="message" placeholder="Vasa poruka ovde..."></textarea>
-				</div>
+				</div>-->
 
 				<div class="container-contact100-form-btn">
 					<button class=" btn contact100-form-btn okvir">
 						<span>
-							Posalji
+							Registruj se
 							<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
 						</span>
 					</button>

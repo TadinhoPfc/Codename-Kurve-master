@@ -549,12 +549,12 @@ textarea.input100 {
 }
 
 .select2-container .select2-results__option[aria-selected="true"] {
-  background: #cc7a00;
+  background: #cc005e;
   color: white;
 }
 
 .select2-container .select2-results__option--highlighted[aria-selected] {
-  background: #cc7a00;
+  background: #cc005e;
   color: white;
 }
 
@@ -634,7 +634,7 @@ textarea.input100 {
   height: 20px;
   border-radius: 50%;
   border: 6px solid transparent;
-  background: #cc7a00;
+  background: #cc005e;
   -moz-background-clip: padding;
   -webkit-background-clip: padding;
   background-clip: padding-box;
@@ -664,7 +664,7 @@ textarea.input100 {
 .contact100-form-range-value {
   font-family: Montserrat-SemiBold;
   font-size: 18px;
-  color: #cc7a00;
+  color: #cc005e;
   line-height: 1.2;
   padding-top: 10px;
   padding-bottom: 30px;
@@ -737,5 +737,5 @@ textarea.input100 {
   }
 }
 .noUi-connect{
-  background-color: #cc7a00!important;
+  background-color: #cc005e!important;
 }
