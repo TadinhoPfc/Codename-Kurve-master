@@ -179,13 +179,13 @@ iframe {
   align-items: center;
   padding: 15px;
 /*  background: #e6e6e6;*/
-background-color:#262626;
+/*background-color:#262626;*/
 
 }
 
 .wrap-contact100 {
   width: 920px;
-  background: #fff;
+  background: #282828;
   border-radius: 10px;
   overflow: hidden;
   padding: 62px 55px 90px 55px;
