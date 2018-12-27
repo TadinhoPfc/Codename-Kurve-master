@@ -106,17 +106,20 @@ color: black!important;
 
 
 
+
 }
 
 .vip-img{
 position: absolute;
   margin-top: 0px;
+
   float:left;
-  width: 100px;
-  height: 50px;
-  background-image: url("../img/vip/vip.jpg");
+  width: 60px;
+  height: 20px;
+  background-image: url("../img/vip/vipgp.jpg");
   background-size: cover;
   background-position: center;
+
 
 }
 
