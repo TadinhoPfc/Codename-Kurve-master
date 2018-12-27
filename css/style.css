@@ -116,9 +116,10 @@ position: absolute;
   float:left;
   width: 60px;
   height: 20px;
-  background-image: url("../img/vip/vipgp.jpg");
+  background-image: url("../img/vip/VIP.png");
   background-size: cover;
   background-position: center;
+  border-bottom-right-radius: 10px;
 
 
 }
